@@ -1,6 +1,6 @@
 name: Aliyun Signin
 
-on:
+##工作流开关## on:
   schedule:
    # 每天国际时间 4:21 运行一次, 中国时间 12:21
     - cron: '21 4 * * *'
